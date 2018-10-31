@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.png">
+    <title>SALTEDARTS | HOME</title>
+</head>
+
+<body>
+        <div id="loading">
+                <img src="images/Logo.png">
+                <h3>Loading...Please Wait...</h3>
+            </div> 
+    <div id="page" class="body fade-in">
+
+        <figure class="logo-top">
+            <a href="index.html">
+                <img src="images/logowithwords.png">
+            </a>
+        </figure>
+        <section class="navigation" id="nav-bar">
+            <div class="nav-container">
+                <div class="brand">
+                    <a href="index.html">
+                        <img src="images/logowithwords.png">
+                    </a>
+                </div>
+                <nav>
+                    <div class="nav-mobile">
+                        <a id="nav-toggle" href="#">
+                            <span></span>
+                        </a>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="tabs">
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li class="tabs">
+                            <a href="about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#">STORE</a>
+                            <ul class="nav-dropdown">
+                                <li>
+                                    <a href="allproducts.html">ALL ITEMS</a>
+                                </li>
+                                <li>
+                                    <a href="artbooks.html">ARTBOOKS/ZINES</a>
+                                </li>
+                                <li>
+                                    <a href="prints.html">PRINTS</a>
+                                </li>
+                                <li>
+                                    <a href="accessories.html">ACCESSORIES</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">CONTACT</a>
+                            <ul class="nav-dropdown">
+                                <li>
+                                    <a href="faq.html">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="email.html">EMAIL</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tabs">
+                            <a href="cart.html" id="cart">
+                                <i class="fa fa-shopping-cart"></i> Cart
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <!-- /Nav -->
+        <button id="backToTop">&#x25B2;Back to top</button>
+    <div class="wrapper">
+    <header class="slideshow">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <a id="shopnow" href="allproducts.html">
+                <img class="banner" src="images/logoBanner.jpg" >
+                <div id="text1">SHOP NOW   &#10095;</div>
+                </a>
+            </div>
+
+            <div class="mySlides fade">
+                <img class="banner" src="images/videoBanner.jpg">
+                <div id="text2">
+                    <h1>WATCH HOW IT'S MADE</h1>
+                    <p>Watch speedpaints to see your 
+                        <br> character come alive.</p>
+                    <a id="text2link" target="_blank" href="https://www.youtube.com/channel/UC06dMN1s7IrWFbJgoNs6Ymw?view_as=subscriber">Learn More
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                <g fill="none" stroke="#b5c7d1" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                                    <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                    <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                </g>
+                            </svg>
+                        </a>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img class="banner" src="images/bannerBadges.jpg">
+                <div id="text3">
+                        <h1>CUSTOMISE YOUR BADGES</h1>
+                        <p>Badges, badges, and more badges to satisfy your badgery needs.</p>
+                        <a id="text3link" href="individualPages/custombadge.html" >View More
+                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                    <g fill="none" stroke="#5e8ea2" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </header>
+    <section class="main-content">
+        <div class="main-content-bg">
+            <section class="category-container">
+                <div class="blocks">
+                    <figure class="category-img-left">
+                        <img src="images/bookbannerdetailArtbooks.png">
+                    </figure>
+                </div>
+                <div class="space"></div>
+                <div class="blocks">
+                    <article class="category-article-right">
+
+                        <h1>ARTBOOKS AND ZINE COLLECTION</h1>
+                        <p>Discover the full collection of your favourite anime and manga.</p>
+                        <p>
+                            <a class="link link--arrowed" href="artbooks.html">View More
+                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                    <g fill="none" stroke="#1e394c" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section class="category-container">
+                    <div class="blocks" id="mobileSize">
+                            <figure>
+                                <img src="images/bannerdetailprints.png">
+                            </figure>
+                        </div>
+                <div class="blocks">
+                    <article class="category-article-left">
+
+                        <h1>PRINTS COLLECTION</h1>
+                        <p>Fanart prints from popular anime shows like Yuri on Ice to best selling games like Nier Automata.</p>
+                        <P>Keep it as it is or paste it on your room wall as decoration.</P>
+                        <p>
+                            <a class="link link--arrowed" href="prints.html">View More
+                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                    <g fill="none" stroke="#1e394c" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </p>
+                    </article>
+                </div>
+                <div class="space"></div>
+                <div class="blocks">
+                    <figure class="category-img-right">
+                        <img src="images/bannerdetailprints.png">
+                    </figure>
+                </div>
+
+            </section>
+        </div>
+    </section>
+    <footer>
+        <div class="main-content-bg">
+            <section class="footer-column">
+                <h3>STORE</h3>
+                <p>
+                    <a href="artbooks.html">ARTBOOKS/ZINES</a>
+                </p>
+                <p>
+                    <a href="prints.html">PRINTS</a>
+                </p>
+                <p>
+                    <a href="accessories.html">ACCESSORIES</a>
+                </p>
+            </section>
+            <section class="footer-column">
+                <h3>CUSTOMER SUPPORT</h3>
+                <p>
+                    <a href="faq.html">FAQ</a>
+                </p>
+                <p>
+                    <a href="email.html">EMAIL</a>
+                </p>
+            </section>
+            <section class="footer-column">
+                <h3>SALTEDARTS</h3>
+                <p>GET CONNECTED</p>
+                <div class="icons">
+                    <figure id="insta">
+                        <a target="_blank" href="https://www.instagram.com/shiokara_/">
+                            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </figure>
+                    <figure id="deviantart">
+                        <a target="_blank" href="https://shiokara-art.deviantart.com/">
+                            <i class="fa fa-deviantart fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </figure>
+                    <figure id="youtube">
+                        <a target="_blank" href="https://www.youtube.com/channel/UC06dMN1s7IrWFbJgoNs6Ymw?view_as=subscriber">
+                            <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </figure>
+                </div>
+            </section>
+            <p></p>
+        </div>
+    </footer>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="javascript_jquery/responsiveNav.js"></script>
+<script src="javascript_jquery/sticky.js"></script>
+<script src="javascript_jquery/loading.js"></script>
+<script src="javascript_jquery/slider.js"></script>
+</body>
+
+</html>
